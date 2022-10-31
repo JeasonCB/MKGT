@@ -5,7 +5,7 @@ import Nav from '../components/nav'
 const clase5 = () => {
   return (
     <>
-      <Nav /> 
+      <Nav />
       {/* presentacion - con blob ⬇ */}
       <div className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
         <div>

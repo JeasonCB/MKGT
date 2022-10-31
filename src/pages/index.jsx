@@ -14,7 +14,7 @@ export default function Home () {
       </Head>
       <Header/>
       <div className='pb-[10vh]'> </div>
-      cursos
+      <div className='text-center w-[100%] text-5xl font-bold mb-10'> Cursos 👇</div>
       <Layout>
         <Card titulo='clase 1' link='./clase1' subtitulo='Principios de marketing' descripcion={'lorem ipsum'} url={marketing} />
         <Card titulo='clase 2' link='./clase2' subtitulo='Factores de microentorno' descripcion={''} url={marketing} />
