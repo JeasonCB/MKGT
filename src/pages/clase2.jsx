@@ -21,10 +21,10 @@ const clase2 = () => {
                   </h1>
                   <br />
                   <p className="mx-auto mt-1 max-w-xl sm:text-xl sm:leading-relaxed">
-                    &quotEl entorno de marketing de una empresa consiste en los
+                    &quot;El entorno de marketing de una empresa consiste en los
                     actores y las fuerzas ajenas al marketing que afectan la
                     capacidad de la gerencia de marketing para construir y
-                    mantener relaciones exitosas con los clientes objetivo&quot.
+                    mantener relaciones exitosas con los clientes objetivo&quot;.
                   </p>
 
                 </div>

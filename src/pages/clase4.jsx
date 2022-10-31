@@ -21,7 +21,7 @@ const clase4 = () => {
                 </h1>
                 <br />
                 <p className="mx-auto mt-1 max-w-xl sm:text-xl sm:leading-relaxed">
-                  &quotExisten 2 tipos de mercados en terminos generales, mercados de consumo (B2C) y mercados industriales (B2B). <br /> El primero dirigido a personas que adquieren el producto para utilizarlo de manera individual o en su entorno cercano y el segundo dirigido a empresas que adquieren el producto para utilizarlo en sus actividades de producción.&quot
+                  &quot;Existen 2 tipos de mercados en terminos generales, mercados de consumo (B2C) y mercados industriales (B2B). <br /> El primero dirigido a personas que adquieren el producto para utilizarlo de manera individual o en su entorno cercano y el segundo dirigido a empresas que adquieren el producto para utilizarlo en sus actividades de producción.&quot;
                 </p>
 
               </div>

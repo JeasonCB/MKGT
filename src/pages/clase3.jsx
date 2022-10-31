@@ -20,8 +20,8 @@ const clase3 = () => {
                 </h1>
                 <br />
                 <p className="mx-auto mt-1 max-w-xl sm:text-xl sm:leading-relaxed">
-                  &quotEstas fuerzas dan forma a las oportunidades y representan
-                  amenazas para la empresa.&quot
+                  &quot;Estas fuerzas dan forma a las oportunidades y representan
+                  amenazas para la empresa.&quot;
                 </p>
 
               </div>

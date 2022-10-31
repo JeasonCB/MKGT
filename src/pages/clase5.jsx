@@ -20,10 +20,10 @@ const clase5 = () => {
                 </h1>
                 <br />
                 <p className="mx-auto mt-1 max-w-xl sm:text-xl sm:leading-relaxed">
-                  &quotConsiste en organizar una oferta de mercado para ocupar un
+                  &quot;Consiste en organizar una oferta de mercado para ocupar un
                   lugar claro, distintivo y deseable en relación con los
                   productos competidores en las mentes de los consumidores
-                  meta&quot.
+                  meta&quot;.
                 </p>
 
               </div>
@@ -61,7 +61,7 @@ const clase5 = () => {
                 <Image className="object-cover object-center mx-auto rounded-lg shadow-lg bg-white blur-none hidden md:block lg:my-40 lg:hidden " alt="Maslow" src={city} />
                 <div className='md:hidden'> <br /> </div>
                 <Image className="object-cover object-center mx-auto rounded-lg shadow-lg bg-white blur-none md:hidden" alt="Maslow" src={city} />
-                <p className="mb-8 text-base leading-relaxed text-left text-gray-500 font-bold">“POSICIONAMIENTO ES ES EL LUGAR QUE UN PRODUCTO, MARCA O GRUPO DE PRODUCTOS OCUPAN EN LA MENTE DE LOS CONSUMIDORES EN COMPARACIÓN CON LA COMPETENCIA.” <span className="text-gray-700">LAMB,HAIR,MCDANIEL (2013)</span> </p>
+                <p className="mb-8 text-base leading-relaxed text-left text-gray-500 font-bold">&quot;POSICIONAMIENTO ES ES EL LUGAR QUE UN PRODUCTO, MARCA O GRUPO DE PRODUCTOS OCUPAN EN LA MENTE DE LOS CONSUMIDORES EN COMPARACIÓN CON LA COMPETENCIA.&quot; <span className="text-gray-700">LAMB,HAIR,MCDANIEL (2013)</span> </p>
                 <h2 className='font-bold text-lg text-pink-600'>Esta definicion implica que la empresa: </h2>
                 <div className="mb-8 text-base leading-relaxed text-left text-gray-700">
                   <li className='m-0'>
