@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import city from '../../public/city.jpg'
 import Image from 'next/image'
 
@@ -21,10 +20,10 @@ const clase5 = () => {
                 </h1>
                 <br />
                 <p className="mx-auto mt-1 max-w-xl sm:text-xl sm:leading-relaxed">
-                  "Consiste en organizar una oferta de mercado para ocupar un
+                  &quotConsiste en organizar una oferta de mercado para ocupar un
                   lugar claro, distintivo y deseable en relación con los
                   productos competidores en las mentes de los consumidores
-                  meta."
+                  meta&quot.
                 </p>
 
               </div>

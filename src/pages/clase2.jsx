@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import city from '../../public/city.jpg'
 import Image from 'next/image'
 
@@ -22,10 +21,10 @@ const clase2 = () => {
                   </h1>
                   <br />
                   <p className="mx-auto mt-1 max-w-xl sm:text-xl sm:leading-relaxed">
-                    "El entorno de marketing de una empresa consiste en los
+                    &quotEl entorno de marketing de una empresa consiste en los
                     actores y las fuerzas ajenas al marketing que afectan la
                     capacidad de la gerencia de marketing para construir y
-                    mantener relaciones exitosas con los clientes objetivo."
+                    mantener relaciones exitosas con los clientes objetivo&quot.
                   </p>
 
                 </div>
@@ -90,7 +89,7 @@ const clase2 = () => {
                     <br />
                     <li>
                       <b>C</b>ompetidores: grupo de empresas que ofrecen un servicio o producto similar al nuestro o que dirigen sus acciones a un mismo segmento del mercado.
-                      <br /> Representados por el acrónimo <b>"(P.E.P.C.I.C)"</b>
+                      <br /> Representados por el acrónimo <b>&quot(P.E.P.C.I.C)&quot</b>
                     </li>
 
                   </div>

@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import city from '../../public/city.jpg'
 import Image from 'next/image'
 
@@ -21,7 +20,7 @@ const clase1 = () => {
                 </h1>
                 <br />
                 <p className="mx-auto mt-1 max-w-xl sm:text-xl sm:leading-relaxed">
-                  "La funcion del Marketing en una empresa es manejar y coordinar estrategias de venta"
+                  &quotLa funcion del Marketing en una empresa es manejar y coordinar estrategias de venta&quot
                 </p>
 
               </div>

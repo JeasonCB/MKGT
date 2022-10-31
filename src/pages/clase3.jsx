@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import city from '../../public/city.jpg'
 import Image from 'next/image'
 
@@ -21,8 +20,8 @@ const clase3 = () => {
                 </h1>
                 <br />
                 <p className="mx-auto mt-1 max-w-xl sm:text-xl sm:leading-relaxed">
-                  "Estas fuerzas dan forma a las oportunidades y representan
-                  amenazas para la empresa."
+                  &quotEstas fuerzas dan forma a las oportunidades y representan
+                  amenazas para la empresa.&quot
                 </p>
 
               </div>
@@ -98,7 +97,7 @@ const clase3 = () => {
 
                   <li>
                     <b>D</b>emográfico: La demografía es el estudio de las poblaciones humanas en términos de su tamaño, densidad, ubicación, edad, género, raza, ocupación, entre otras.
-                    <br /> Representados por el acrónimo <b>"(T.E.N.P.C.D)"</b>
+                    <br /> Representados por el acrónimo <b>&quot(T.E.N.P.C.D)&quot</b>
                   </li>
                 </div>
 
