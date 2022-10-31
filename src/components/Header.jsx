@@ -14,8 +14,10 @@ export const Header = () => {
         </svg>
         <Image
           className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
-          src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compresscs=tinysrgbdpr=2h=750w=1260"
-          alt=""
+          priority
+          quality={50}
+          src={header}
+          alt="header"
         />
       </div>
       <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
