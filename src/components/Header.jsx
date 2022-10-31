@@ -23,20 +23,18 @@ export const Header = () => {
       <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
         <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
           <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-            Brand new
+           Cursos
           </p>
           <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-            Everything you
+            Principios
             <br className="hidden md:block" />
-            can imagine{' '}
+            de{' '}
             <span className="inline-block text-deep-purple-accent-400">
-              is real
+              Marketing
             </span>
           </h2>
           <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae. explicabo.
+            Una vez hayas concluido con las lecturas es hora de comenzar el quiz pincha aca abajo 👇 !!!
           </p>
           <div className="flex items-center">
             <a
