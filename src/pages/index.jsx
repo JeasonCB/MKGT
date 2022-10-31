@@ -12,7 +12,7 @@ export default function Home () {
         <meta name="description" content="Created by Jecb" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header/>
+      <Header />
       <div className='pb-[10vh]'> </div>
       <div className='text-center w-[100%] text-5xl font-bold mb-10'> Cursos 👇</div>
       <Layout>

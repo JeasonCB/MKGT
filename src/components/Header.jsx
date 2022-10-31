@@ -16,7 +16,8 @@ export const Header = () => {
         <Image
           className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none md:h-96 lg:h-full"
           priority
-          quality={50}
+          placeholder='blur'
+          quality={1}
           src={header}
           alt="header"
         />
