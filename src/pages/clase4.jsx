@@ -1,7 +1,7 @@
 import ed from '../../public/ed.jpg'
 import city from '../../public/city.jpg'
 import Image from 'next/image'
-import Nav from '../components/nav'
+import Nav from '../components/Nav'
 
 const clase4 = () => {
   return (
