@@ -71,6 +71,7 @@ const clase1 = () => {
                 </div>
               </div>
             </div>
+            <br />
             <hr />
           </div>
           {/* segunda seccion - inversa ⬇ */}
@@ -99,8 +100,10 @@ const clase1 = () => {
             <div className="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex"></div>
             <div className='w-full lg:max-w-lg lg:w-1/2 rounded-xl'>
               <Image className='' src={city} />
+              <br />
               <hr />
             </div>
+            <br />
           </div>
         </section>
       </div>
