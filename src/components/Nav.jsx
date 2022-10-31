@@ -7,13 +7,13 @@ const Nav = () => {
         aria-label="Site Nav"
         className="mx-auto flex max-w-3xl items-center justify-between p-4"
       >
-        <a
+        <Link
           href="/"
           className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100"
         >
           <span className="sr-only">Logo</span>
           👋 Home
-        </a>
+        </Link>
 
         <ul className="flex items-center gap-2 text-sm font-medium text-gray-500">
           <li className="hidden lg:block">

@@ -27,6 +27,7 @@ const clase1 = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 5.25l-7.5 7.5-7.5-7.5m15 6l-7.5 7.5-7.5-7.5" />
                 </svg>
               </div>
+              <br />
             </div>
           </section>
         </div>

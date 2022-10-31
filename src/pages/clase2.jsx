@@ -100,6 +100,7 @@ const clase2 = () => {
                 </div>
 
               </div>
+              <br />
               <hr />
 
             </div>

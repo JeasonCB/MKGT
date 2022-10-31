@@ -94,6 +94,7 @@ const clase5 = () => {
               </div>
 
             </div>
+            <br />
             <hr />
 
           </div>

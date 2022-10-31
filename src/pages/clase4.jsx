@@ -109,6 +109,7 @@ const clase4 = () => {
               </div>
 
             </div>
+            <br />
             <hr />
 
           </div>

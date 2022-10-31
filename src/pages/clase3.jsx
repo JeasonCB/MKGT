@@ -36,6 +36,7 @@ const clase3 = () => {
               </div>
 
             </div>
+
           </section>
 
         </div>
@@ -108,6 +109,7 @@ const clase3 = () => {
               </div>
 
             </div>
+            <br />
             <hr />
 
           </div>
