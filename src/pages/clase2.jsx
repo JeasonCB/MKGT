@@ -89,7 +89,7 @@ const clase2 = () => {
                     <br />
                     <li>
                       <b>C</b>ompetidores: grupo de empresas que ofrecen un servicio o producto similar al nuestro o que dirigen sus acciones a un mismo segmento del mercado.
-                      <br /> Representados por el acrónimo <b>&quot(P.E.P.C.I.C)&quot</b>
+                      <br /> Representados por el acrónimo <b>&quot;(P.E.P.C.I.C)&quot;</b>
                     </li>
 
                   </div>
