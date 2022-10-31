@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import city from '../../public/city.jpg'
 import Image from 'next/image'
 
