@@ -97,7 +97,7 @@ const clase3 = () => {
 
                   <li>
                     <b>D</b>emográfico: La demografía es el estudio de las poblaciones humanas en términos de su tamaño, densidad, ubicación, edad, género, raza, ocupación, entre otras.
-                    <br /> Representados por el acrónimo <b>&quot(T.E.N.P.C.D)&quot</b>
+                    <br /> Representados por el acrónimo <b>&quot;(T.E.N.P.C.D)&quot;</b>
                   </li>
                 </div>
 
