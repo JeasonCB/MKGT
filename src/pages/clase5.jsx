@@ -81,13 +81,13 @@ const clase5 = () => {
                   <br />
                   <h2 className='font-bold text-lg text-pink-600'>¿Cuales son las ventajas competitivas?</h2>
                   <br />
-                  <li className="text-gray-700">Producto: Caracteristicas, desempeño, estilo y diseño. por ejemplo nichos como ferrari o rolex </li>
+                  <li className="text-gray-700"><b>Producto:</b> Caracteristicas, desempeño, estilo y diseño. por ejemplo nichos como ferrari o rolex </li>
                   <br />
-                  <li className="text-gray-700">Servicios: Instalacion, asesoria, reparacion, Atencion al cliente. Servicios profesionales, Delivery, Servicios de alquiler de locales comerciales o viviendas, así como tambien empresas de telefonía.</li>
+                  <li className="text-gray-700"><b>Servicios:</b> Instalacion, asesoria, reparacion, Atencion al cliente. Servicios profesionales, Delivery, Servicios de alquiler de locales comerciales o viviendas, así como tambien empresas de telefonía.</li>
                   <br />
-                  <li className="text-gray-700">Imagen: Simbolo, Colores, Voceros, Patrocinio. Como influencers, medios publicitarios, Amazon o Ebay</li>
+                  <li className="text-gray-700"><b>Imagen:</b> Simbolo, Colores, Voceros, Patrocinio. Como influencers, medios publicitarios, Amazon o Ebay</li>
                   <br />
-                  <li className="text-gray-700">Personal: Amabilidad, atencion, capacitación, Experiencia. Muy común en marcas de lujo y servicios de alto valor, como servicios profesionales, restaurantes etc.</li>
+                  <li className="text-gray-700"><b>Personal:</b> Amabilidad, atencion, capacitación, Experiencia. Muy común en marcas de lujo y servicios de alto valor, como servicios profesionales, restaurantes etc.</li>
                 </div>
                 <div className="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex">
                 </div>
@@ -110,9 +110,9 @@ const clase5 = () => {
               <div className="mb-8 text-base leading-tight text-left text-gray-700">
                 <h2 className="font-bold text-lg text-pink-600">El posicionamiento se construye sobre 8 pilares fundamentales estos son: </h2>
                 <br />
-                <li className="m-0"><b>Atributo:</b> el producto va asociado a una característica, atributo o beneficio para el cliente. por ejemplo FedEx (entrega puntual garantizada), Nike (desempeño), Lexus (calidad) y Walmart (precios bajos).</li>
+                <li className="m-0"><b>Atributo:</b> El producto va asociado a una característica, atributo o beneficio para el cliente. por ejemplo FedEx (entrega puntual garantizada), Nike (desempeño), Lexus (calidad) y Walmart (precios bajos).</li>
                 <br />
-                <li><b>Precio y calidad:</b> ¿precio elevado = calidad? el producto realmente vale la pena por su precio, algunos ejemplos, Ropa, alimentos o vehiculos de gama baja vs gama alta.</li>
+                <li><b>Precio y calidad:</b> ¿Precio elevado = calidad? El producto realmente vale la pena por su precio, algunos ejemplos, Ropa, alimentos o vehiculos de gama baja vs gama alta.</li>
                 <br />
                 <li><b>Ocasión de uso o aplicación :</b>  Son productos o servicios enfocados en cubrir una nececidad momentanea, como gatorade, hoteleria, cines o restaurantes.</li>
                 <br />
@@ -122,7 +122,7 @@ const clase5 = () => {
                 <br />
                 <li><b>En función de la competencia:</b> Ya sea como lider o seguidor, siendo el producto mejor posicionado o representando una alternativa economica respectivamente. Ejemplo cocacola, pepsi y glup. </li>
                 <br />
-                <li><b>Emoción:</b> como Golden que representa una marca divertida y amigable o Cocacola celebrando la navidad en familia, evocando nostalgia y afecto, al igual que ronco.</li>
+                <li><b>Emoción:</b> Como Golden que representa una marca divertida y amigable o Cocacola celebrando la navidad en familia, evocando nostalgia y afecto, al igual que ronco.</li>
                 <br />
 
                 <br />

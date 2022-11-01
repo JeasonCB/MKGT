@@ -69,7 +69,7 @@ const clase2 = () => {
                   <div className="mb-8 text-base leading-relaxed text-left text-gray-700">
 
                     <li>
-                      <b>P</b>roveedores: brindan los recursos que la empresa
+                      <b>P</b>roveedores: Brindan los recursos que la empresa
                       requiere para producir o vender sus bienes y servicios.
                     </li>
                     <br />
@@ -78,7 +78,7 @@ const clase2 = () => {
                     </li>
                     <br />
                     <li>
-                      <b>P</b>úblicos: es cualquier grupo que tenga un interés real o potencial, o un impacto sobre la capacidad de una organización para alcanzar sus objetivos, existen 7 tipos de publico: financiero, de medios, gubernamental, accion ciudadana, locales o comunitarios y publico general e interno.
+                      <b>P</b>úblicos: Es cualquier grupo que tenga un interés real o potencial, o un impacto sobre la capacidad de una organización para alcanzar sus objetivos, existen 7 tipos de publico: financiero, de medios, gubernamental, accion ciudadana, locales o comunitarios y publico general e interno.
                     </li>
                     <br />
                     <li>
@@ -86,11 +86,11 @@ const clase2 = () => {
                     </li>
                     <br />
                     <li>
-                      <b>I</b>ntermediarios de Marketing: es un agente que media entre el productor o el fabricante y el consumidor final, existen de 3 tipos, revendedores, distribucion fisica e intermediarios financieros.
+                      <b>I</b>ntermediarios de Marketing: Es un agente que media entre el productor o el fabricante y el consumidor final, existen de 3 tipos, revendedores, distribucion fisica e intermediarios financieros.
                     </li>
                     <br />
                     <li>
-                      <b>C</b>ompetidores: grupo de empresas que ofrecen un servicio o producto similar al nuestro o que dirigen sus acciones a un mismo segmento del mercado.
+                      <b>C</b>ompetidores: Grupo de empresas que ofrecen un servicio o producto similar al nuestro o que dirigen sus acciones a un mismo segmento del mercado.
                       <br /> Representados por el acrónimo <b>&quot;(P.E.P.C.I.C)&quot;</b>
                     </li>
 

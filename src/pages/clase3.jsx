@@ -113,38 +113,7 @@ const clase3 = () => {
             <hr />
 
           </div>
-          {/* segunda seccion - inversa ⬇ */}
         </section>
-        {/* <section className='px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
-          <div className='flex flex-wrap items-center mx-auto max-w-7xl'>
-            <div className='flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0'>
-              <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Definición </span>
-              <h1 className="mb-8 bg-gradient-to-r from-pink-600/90 via-pink-700 to-pink-700 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">EVOLUCION DEL MERCADO</h1>
-              <p className="mb-8 text-base leading-relaxed text-left text-gray-500 font-bold">“La evolución del marketing (según Philip Kotler, padre del marketing moderno) ha sido clara: ha pasado de centrarse en la producción a enfocarse en el cliente” <span className="text-gray-700">Kotler (2013)</span> </p>
-
-              <div className="mb-8 text-base leading-tight text-left text-gray-700">
-                <h2 className="font-bold text-lg text-pink-600">Pasando así por 5 grandes etapas las cuales son: </h2>
-                <br />
-                <li className="m-0"><b>Mercadeo 1.0 :</b> constituye los inicios del marketing centrado en el producto cuyo objetivo era crear los productos y servicios perfectos que producirían el más alto valor y satisfacción para los consumidores.</li>
-                <br />
-                <li><b>Mercadeo 2.0:</b> centrado en el consumidor, en esta etapa la atención estaba en entender la segmentación, el targeting y el posicionamiento y en construir relaciones con los clientes para retenerlos.</li>
-                <br />
-                <li><b>Mercadeo 3.0 :</b>  las nuevas generaciones empezaron a exigir que se desarrollaran productos, servicios y culturas que brindaran un impacto positivo en la sociedad y en el medioambiente.</li>
-                <br />
-                <li><b>Mercadeo 4.0 :</b> la digitalización complementó la tendencia hacia lo humano. El surgimiento del Internet móvil, los medios sociales y el comercio electrónico cambiaron la forma de comprar de los clientes.</li>
-                <br />
-                <li><b>Mercadeo 5.0 :</b> responde a los intereses principalmente de las generaciones Z y Alpha basados en mejorar la calidad de vida de los seres humanos y en hacer que los avances tecnológicos impacten en todos los aspectos de la vida.</li>
-                <br />
-              </div>
-
-            </div>
-            <div className="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex"></div>
-            <div className='w-full lg:max-w-lg lg:w-1/2 rounded-xl'>
-              <Image className='' src={city} />
-            </div>
-          </div>
-          <hr />
-        </section> */}
       </div>
 
     </>
