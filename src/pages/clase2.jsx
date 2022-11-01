@@ -78,7 +78,7 @@ const clase2 = () => {
                     </li>
                     <br />
                     <li>
-                      <b>P</b>úblicos: es cualquier grupo que tenga un interés real o potencial, o un impacto sobre la capacidad de una organización para alcanzar sus objetivos.
+                      <b>P</b>úblicos: es cualquier grupo que tenga un interés real o potencial, o un impacto sobre la capacidad de una organización para alcanzar sus objetivos, existen 7 tipos de publico: financiero, de medios, gubernamental, accion ciudadana, locales o comunitarios y publico general e interno.
                     </li>
                     <br />
                     <li>
@@ -86,7 +86,7 @@ const clase2 = () => {
                     </li>
                     <br />
                     <li>
-                      <b>I</b>ntermediarios de Marketing: es un agente que media entre el productor o el fabricante y el consumidor final, como por ejemplo un mayorista. Tambien llamado, canales de distribución
+                      <b>I</b>ntermediarios de Marketing: es un agente que media entre el productor o el fabricante y el consumidor final, existen de 3 tipos, revendedores, distribucion fisica e intermediarios financieros.
                     </li>
                     <br />
                     <li>
