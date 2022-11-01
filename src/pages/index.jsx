@@ -23,7 +23,6 @@ export default function Home () {
         <Card titulo='clase 5' link='./clase5' subtitulo='Principios de marketing' descripcion={''} url={marketing} />
         <Card titulo='clase 6' link='/' subtitulo='proximamente...' descripcion={''} url={marketing} />
       </Layout>
-
     </>
   )
 }

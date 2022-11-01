@@ -179,7 +179,7 @@ const clase4 = () => {
                     <div className="relative w-full max-w-lg">
                       <div ></div>
 
-                      <div className="absolute rounded-full bg-indigo-200 -bottom-24 lg:top-[calc(-380px)] sm:right-96 left-[20vw] w-72 h-72 mix-blend-multiply filter blur-xl lg:blur-[64px] opacity-70 animate-blob animation-delay-4000"></div>
+                      <div className="absolute rounded-full bg-indigo-200 -bottom-24 lg:top-[calc(-380px)] sm:right-96 left-[8vw] w-72 h-72 mix-blend-multiply filter blur-xl lg:blur-[64px] opacity-70 animate-blob animation-delay-4000"></div>
                       <div className="relative">
                       </div>
                     </div>
@@ -224,8 +224,10 @@ const clase4 = () => {
           </section>
         </section>
         {/* tercera seccion */}
+        <br />
         <section className='container '>
           <div className='flex flex-col justify-center mb-8 mx-16 lg:mx-64'>
+            <br />
             <h1 className='text-4xl text-pink-600 text-center font-bold '>¿CÓMO SE SELECCIONA LA ESTRATEGIA DE COBERTURA DE MERCADO?</h1>
             <br />
             <Image src={ed} />

@@ -22,8 +22,7 @@ const Nav = () => {
 
           <li><Link className="rounded-lg px-3 py-2" href="/clase2"> Clase 2 </Link></li>
           <li><Link className="rounded-lg px-3 py-2" href="/clase3"> Clase 3 </Link></li>
-          <li><Link className="rounded-lg px-3 py-2" href="/clase4"> Clase 4</Link></li>
-          <li><Link className="rounded-lg px-3 py-2" href="/clase5"> Clase 5</Link></li>
+
           <li>
             <Link
               className="inline-flex items-center rounded-lg px-3 py-2"
