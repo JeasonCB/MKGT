@@ -1,11 +1,16 @@
 import city from '../../public/city.jpg'
 import Image from 'next/image'
 import Nav from '../components/Nav'
-
+import Head from 'next/head'
 const clase1 = () => {
   return (
     <>
-    <Nav/>
+      <Head>
+        <title>Principios de Marketing</title>
+        <meta name="description" content="Created by Jecb" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <Nav />
       {/* presentacion - con blob ⬇ */}
       <div className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
         <div>
@@ -84,17 +89,17 @@ const clase1 = () => {
               <p className="mb-8 text-base leading-relaxed text-left text-gray-500 font-bold">“La evolución del marketing (según Philip Kotler, padre del marketing moderno) ha sido clara: ha pasado de centrarse en la producción a enfocarse en el cliente” <span className="text-gray-700">Kotler (2013)</span> </p>
               <div className="mb-8 text-base leading-tight text-left text-gray-700">
                 <h2 className="font-bold text-lg text-pink-600">Pasando así por 5 grandes etapas las cuales son: </h2>
-<br />
+                <br />
                 <li className="m-0"><b>Mercadeo 1.0 :</b> constituye los inicios del marketing centrado en el producto cuyo objetivo era crear los productos y servicios perfectos que producirían el más alto valor y satisfacción para los consumidores.</li>
-<br />
+                <br />
                 <li><b>Mercadeo 2.0:</b> centrado en el consumidor, en esta etapa la atención estaba en entender la segmentación, el targeting y el posicionamiento y en construir relaciones con los clientes para retenerlos.</li>
-<br />
+                <br />
                 <li><b>Mercadeo 3.0 :</b>  las nuevas generaciones empezaron a exigir que se desarrollaran productos, servicios y culturas que brindaran un impacto positivo en la sociedad y en el medioambiente.</li>
-<br />
+                <br />
                 <li><b>Mercadeo 4.0 :</b> la digitalización complementó la tendencia hacia lo humano. El surgimiento del Internet móvil, los medios sociales y el comercio electrónico cambiaron la forma de comprar de los clientes.</li>
-<br />
+                <br />
                 <li><b>Mercadeo 5.0 :</b> responde a los intereses principalmente de las generaciones Z y Alpha basados en mejorar la calidad de vida de los seres humanos y en hacer que los avances tecnológicos impacten en todos los aspectos de la vida.</li>
-<br />
+                <br />
               </div>
             </div>
             <div className="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex"></div>

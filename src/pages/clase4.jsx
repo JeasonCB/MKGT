@@ -2,10 +2,15 @@ import ed from '../../public/ed.jpg'
 import city from '../../public/city.jpg'
 import Image from 'next/image'
 import Nav from '../components/Nav'
-
+import Head from 'next/head'
 const clase4 = () => {
   return (
     <>
+      <Head>
+        <title>Tipos de Mercados y Segmentación</title>
+        <meta name="description" content="Created by Jecb" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Nav />
       {/* presentacion - con blob ⬇ */}
       <div className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
