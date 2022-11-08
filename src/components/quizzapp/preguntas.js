@@ -34,42 +34,6 @@ const preguntas = [
       { textoRespuesta: 'Construir relaciones con los clientes', isCorrect: false },
       { textoRespuesta: 'Generar bienestar por medio de la tecnología', isCorrect: true }
     ]
-  },
-  {
-    titulo: '¿Cual es la tendencia más actual del marketing?',
-    opciones: [
-      { textoRespuesta: 'Generar ventas a toda costa', isCorrect: false },
-      { textoRespuesta: 'Crear el mejor producto posible', isCorrect: false },
-      { textoRespuesta: 'Construir relaciones con los clientes', isCorrect: false },
-      { textoRespuesta: 'Generar bienestar por medio de la tecnología', isCorrect: true }
-    ]
-  },
-  {
-    titulo: 'titulo',
-    opciones: [
-      { textoRespuesta: 'Generar ventas a toda', isCorrect: false },
-      { textoRespuesta: 'Crear el mejor producto posible', isCorrect: false },
-      { textoRespuesta: 'Construir relaciones', isCorrect: false },
-      { textoRespuesta: 'Generar bienestar  isCorrect: true' }
-    ]
-  },
-  {
-    titulo: 'titulo',
-    opciones: [
-      {},
-      {},
-      {},
-      {}
-    ]
-  },
-  {
-    titulo: 'titulo',
-    opciones: [
-      {},
-      {},
-      {},
-      {}
-    ]
   }
 
 ]

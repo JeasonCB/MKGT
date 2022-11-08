@@ -1,7 +1,7 @@
 import city from '../../public/city.jpg'
 import Image from 'next/image'
 import Nav from '../components/Nav'
-import Head from 'next/head';
+import Head from 'next/head'
 
 const clase5 = () => {
   return (

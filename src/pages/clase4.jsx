@@ -21,7 +21,7 @@ const clase4 = () => {
             >
               <div className="mx-auto max-w-3xl text-center">
                 <h1
-                  className="bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+                  className="bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl sm:mt-28 md:mt-auto"
                 >
                   Clase  4 <br />
                   <span className="sm:block pt-2"> TIPOS DE MERCADO Y SEGMENTACION </span>
