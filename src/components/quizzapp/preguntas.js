@@ -35,7 +35,6 @@ const preguntas = [
       { textoRespuesta: 'Generar bienestar por medio de la tecnología', isCorrect: true }
     ]
   }
-
 ]
 
 export default preguntas

@@ -1,4 +1,4 @@
-import city from '../../public/city.jpg'
+import city from '../../public/maslow.jpg'
 import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
@@ -79,8 +79,8 @@ const clase1 = () => {
             <br />
             <hr />
           </div>
-          {/* segunda seccion - inversa ⬇ */}
         </section>
+          {/* segunda seccion - inversa ⬇ */}
         <section className='px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
           <div className='flex flex-wrap items-center mx-auto max-w-7xl'>
             <div className='flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0'>
