@@ -1,33 +1,45 @@
 import Link from 'next/link'
 
-const Nav = () => {
+const Nav = ({ nc, nci, urli, urlii }) => {
   return (
     <>
       <nav
         aria-label="Site Nav"
-        className="mx-auto flex max-w-3xl items-center justify-between p-4"
+        className=" mx-auto flex max-w-3xl items-center justify-between p-4"
       >
         <Link
           href="/"
-          className="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-gray-100"
+          className="z-20 inline-flex h-10 w-18 items-center justify-center rounded-lg "
         >
-          <span className="sr-only">Logo</span>
+          <span className="z-50 sr-only w-20">Logo</span>
           👋 Home
         </Link>
 
         <ul className="flex items-center gap-2 text-sm font-medium text-gray-500">
-          <li className="hidden lg:block">
-            <Link href='/clase1'> Clase 1</Link>
+          <li className="block">
+            <Link
+              href={urli}
+              className="z-10 inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent"
+            >
+              <span className='z-10'>⬅ Clase {nc}</span>
+            </Link>
           </li>
 
-          <li><Link className="rounded-lg px-3 py-2" href="/clase2"> Clase 2 </Link></li>
-          <li><Link className="rounded-lg px-3 py-2" href="/clase3"> Clase 3 </Link></li>
-
-          <li>
+          <li className='block'>
             <Link
-              className="inline-flex items-center rounded-lg px-3 py-2"
-              href="/quizApp">
-              QuizApp
+              href={urlii}
+              className="z-10 inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent"
+            >
+              <span className='z-10'>Clase {nci} ➡</span>
+            </Link>
+          </li>
+
+          <li className='block mx-4'>
+            <Link
+              href="/quizApp"
+              className="z-10 inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent"
+            >
+              <span className='z-10'>QuizApp</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

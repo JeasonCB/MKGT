@@ -1,8 +1,9 @@
 import Lovemarks from '../../public/Lovemarks.png'
-import bl from '../../public/bl.png'
+// import bl from '../../public/bl.png'
 import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
+import Top from '../components/Top'
 const clase6 = () => {
   return (
     <>
@@ -12,9 +13,9 @@ const clase6 = () => {
           <meta name="description" content="Created by Jecb" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
-        <Nav />
+        <Nav nc="5" nci="7" urli="/clase5" urlii="/clase7" />
         {/* presentacion - con blob ⬇ */}
-        <div className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
+        <div id='top' className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
           <div>
             <section className="bg-transparent text-black">
               <div
@@ -46,7 +47,7 @@ const clase6 = () => {
           {/* primera seccion - original ⬇ */}
           <section>
             <div className="px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
-              <div className="flex flex-wrap items-center mx-auto max-w-7xl">
+              <div className="flex flex-wrap items-center mx-auto max-w-7xl bg">
                 <div className="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
                   <div>
                     <div className="relative w-full max-w-lg">
@@ -59,7 +60,7 @@ const clase6 = () => {
                     <Image className="object-cover object-center mx-auto rounded-lg shadow-lg bg-white blur-none lg:block lg:my-40 " alt="Maslow" src={Lovemarks} />
                   </div>
                 </div>
-                <div className="flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
+                <div className="flex flex-col items-start mt-12 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
                   <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Definición </span>
                   <h1 className="mb-8 bg-gradient-to-r from-pink-600/90 via-pink-700 to-pink-700 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">¿QUE ES UNA LOVEMARK?</h1>
 
@@ -105,17 +106,16 @@ const clase6 = () => {
 
               </div>
               <br />
-              <hr />
 
             </div>
             {/* segunda seccion - inversa ⬇ */}
-            <div className='grid place-content-center'>
-              <Image className="object-cover object-center mx-auto rounded-lg shadow-lg bg-white blur-none " alt="Maslow" src={bl} />
-            </div>
+            {/* <div className='grid place-content-center'>
+              <Image className="object-cover object-center mx-auto rounded-lg shadow-lg bg-white blur-none h-[50vh] w-[40vw]" alt="Maslow" src={bl} />
+            </div> */}
           </section>
 
         </div>
-
+        <Top />
       </>
     </>
   )

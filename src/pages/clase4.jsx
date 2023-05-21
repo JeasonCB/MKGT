@@ -3,6 +3,7 @@ import city from '../../public/city.jpg'
 import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
+import Top from '../components/Top'
 const clase4 = () => {
   return (
     <>
@@ -11,9 +12,9 @@ const clase4 = () => {
         <meta name="description" content="Created by Jecb" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav />
+      <Nav nc="3" nci="5" urli="/clase3" urlii="/clase5" />
       {/* presentacion - con blob ⬇ */}
-      <div className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
+      <div id='top' className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
         <div>
           <section className="bg-transparent text-black">
             <div
@@ -230,8 +231,8 @@ const clase4 = () => {
         </section>
         {/* tercera seccion */}
         <br />
-        <section className='container '>
-          <div className='flex flex-col justify-center mb-8 mx-16 lg:mx-64'>
+        <section className='container sm:ml-[4vw]'>
+          <div className='flex flex-col justify-center mb-8 mx-16 lg:mx-32'>
             <br />
             <h1 className='text-4xl text-pink-600 text-center font-bold '>¿CÓMO SE SELECCIONA LA ESTRATEGIA DE COBERTURA DE MERCADO?</h1>
             <br />
@@ -272,7 +273,7 @@ const clase4 = () => {
           </div>
         </section>
       </div>
-
+      <Top />
     </>
   )
 }

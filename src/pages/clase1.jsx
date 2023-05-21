@@ -2,6 +2,8 @@ import city from '../../public/maslow.jpg'
 import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
+import Top from '../components/Top'
+import { motion } from 'framer-motion'
 const clase1 = () => {
   return (
     <>
@@ -10,9 +12,10 @@ const clase1 = () => {
         <meta name="description" content="Created by Jecb" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Nav />
+      <Top />
+      <Nav nc="1" nci="2" urli="/clase1" urlii="/clase2" />
       {/* presentacion - con blob ⬇ */}
-      <div className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
+      <div id='top' className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
         <div>
           <section className="bg-transparent text-black">
             <div className="flex h-[92vh] sm:h-[70vh] md:h-[100vh] items-center flex-col justify-center p-[1vw]">
@@ -20,7 +23,7 @@ const clase1 = () => {
                 <h1
                   className="bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
                   Clase  1 <br />
-                  <span className="sm:block pt-2"> PRINCIPIOS DE MARKETING </span>
+                  <motion.span className="sm:block pt-2"> PRINCIPIOS DE MARKETING </motion.span>
                 </h1>
                 <br />
                 <p className="mx-auto mt-1 max-w-xl sm:text-xl sm:leading-relaxed">
@@ -80,7 +83,7 @@ const clase1 = () => {
             <hr />
           </div>
         </section>
-          {/* segunda seccion - inversa ⬇ */}
+        {/* segunda seccion - inversa ⬇ */}
         <section className='px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
           <div className='flex flex-wrap items-center mx-auto max-w-7xl'>
             <div className='flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0'>
@@ -104,7 +107,7 @@ const clase1 = () => {
             </div>
             <div className="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex"></div>
             <div className='w-full lg:max-w-lg lg:w-1/2 rounded-xl'>
-              <Image className='' src={city} />
+              <Image alt='city' className='' src={city} />
               <br />
               <hr />
             </div>
@@ -112,6 +115,7 @@ const clase1 = () => {
           </div>
         </section>
       </div>
+
     </>
   )
 }
