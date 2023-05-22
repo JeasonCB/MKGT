@@ -21,7 +21,7 @@ const Nav = ({ nc, nci, urli, urlii }) => {
               href={urli}
               className="z-10 inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent"
             >
-              <span className='z-10'>⬅ Clase {nc}</span>
+              <span className='z-10'> ⬅ Clase {nc}</span>
             </Link>
           </li>
 
@@ -30,14 +30,14 @@ const Nav = ({ nc, nci, urli, urlii }) => {
               href={urlii}
               className="z-10 inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent"
             >
-              <span className='z-10'>Clase {nci} ➡</span>
+              <span className='z-10'>Clase {nci} ➡ </span>
             </Link>
           </li>
 
           <li className='block mx-4'>
             <Link
-              href="/quizApp"
-              className="z-10 inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent di"
+              href="/"
+              className="z-10 inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent cursor-not-allowed"
             >
               <span className='z-10'>QuizApp</span>
               <svg
