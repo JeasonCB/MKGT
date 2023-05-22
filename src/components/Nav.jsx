@@ -9,9 +9,9 @@ const Nav = ({ nc, nci, urli, urlii }) => {
       >
         <Link
           href="/"
-          className="z-20 inline-flex h-10 w-18 items-center justify-center rounded-lg "
+          className=" inline-flex h-10 w-18 items-center justify-center rounded-lg "
         >
-          <span className="z-50 sr-only w-20">Logo</span>
+          <span className="-z-50 sr-only w-20">Logo</span>
           👋 Home
         </Link>
 
@@ -19,27 +19,27 @@ const Nav = ({ nc, nci, urli, urlii }) => {
           <li className="block">
             <Link
               href={urli}
-              className="z-10 inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent"
+              className="inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent"
             >
-              <span className='z-10'> ⬅ Clase {nc}</span>
+              <span className=''>⬅ Clase {nc}</span>
             </Link>
           </li>
 
           <li className='block'>
             <Link
               href={urlii}
-              className="z-10 inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent"
+              className="inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent"
             >
-              <span className='z-10'>Clase {nci} ➡ </span>
+              <span className=''>Clase {nci} ➡</span>
             </Link>
           </li>
 
           <li className='block mx-4'>
             <Link
               href="/"
-              className="z-10 inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent cursor-not-allowed"
+              className=" inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent"
             >
-              <span className='z-10'>QuizApp</span>
+              <span className=''>QuizApp</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"

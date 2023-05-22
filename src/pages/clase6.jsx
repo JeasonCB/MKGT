@@ -3,7 +3,7 @@ import Lovemarks from '../../public/Lovemarks.png'
 import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
-import Top from '../components/Top'
+import TopB from '../components/TopB'
 const clase6 = () => {
   return (
     <>
@@ -13,6 +13,7 @@ const clase6 = () => {
           <meta name="description" content="Created by Jecb" />
           <link rel="icon" href="/favicon.ico" />
         </Head>
+        <TopB />
         <Nav nc="5" nci="7" urli="/clase5" urlii="/clase7" />
         {/* presentacion - con blob ⬇ */}
         <div id='top' className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
@@ -115,7 +116,6 @@ const clase6 = () => {
           </section>
 
         </div>
-        <Top />
       </>
     </>
   )

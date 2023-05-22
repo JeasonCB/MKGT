@@ -3,7 +3,7 @@ import city from '../../public/city.jpg'
 import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
-import Top from '../components/Top'
+import TopB from '../components/TopB'
 const clase4 = () => {
   return (
     <>
@@ -12,6 +12,7 @@ const clase4 = () => {
         <meta name="description" content="Created by Jecb" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+        <TopB />
       <Nav nc="3" nci="5" urli="/clase3" urlii="/clase5" />
       {/* presentacion - con blob ⬇ */}
       <div id='top' className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
@@ -273,7 +274,6 @@ const clase4 = () => {
           </div>
         </section>
       </div>
-      <Top />
     </>
   )
 }

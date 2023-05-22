@@ -2,8 +2,10 @@ import city from '../../public/maslow.jpg'
 import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
-import Top from '../components/Top'
+
 import { motion } from 'framer-motion'
+import Footer from '../components/Footer'
+import TopB from '../components/TopB'
 const clase1 = () => {
   return (
     <>
@@ -12,13 +14,14 @@ const clase1 = () => {
         <meta name="description" content="Created by Jecb" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Top />
+              <TopB/>
       <Nav id='navbar' nc="1" nci="2" urli="/clase1" urlii="/clase2" />
       {/* presentacion - con blob ⬇ */}
       <div id='top' className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
         <div>
           <section className="bg-transparent text-black">
             <div className="flex h-[92vh] sm:h-[70vh] md:h-[100vh] items-center flex-col justify-center p-[1vw]">
+
               <div className="mx-auto max-w-3xl text-center">
                 <h1
                   className="bg-gradient-to-r from-indigo-600 via-pink-600 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">
@@ -114,6 +117,8 @@ const clase1 = () => {
             <br />
           </div>
         </section>
+        <Footer />
+
       </div>
 
     </>
