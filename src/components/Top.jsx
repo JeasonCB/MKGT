@@ -14,7 +14,7 @@ const Top = () => {
     <>
       <div className='w-full grid place-items-center'>
         <motion.div
-          className='h-screen w-[99%] flex items-center m-2 cursor-pointer'
+          className='h-[calc(100vh-0.50rem)] w-[99%] flex items-center m-2 mb-2 cursor-pointer'
           ref={constraintsRef}
         >
           <motion.div
