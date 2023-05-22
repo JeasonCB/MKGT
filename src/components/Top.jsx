@@ -14,12 +14,12 @@ const Top = () => {
     <>
       <div className='w-full grid place-items-center'>
         <motion.div
-          className='h-screen bg-transparent w-[99%] flex items-center m-2'
+          className='h-screen bg-orange-300/50 w-[99%] flex items-center m-2'
           ref={constraintsRef}
         >
           <motion.div
-            initial={{ scale: 0, y: 0 }}
-            animate={{ scale: 1, y: 80, x: [200, 0, 200, 0] }}
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
             transition={{ duration: 1 }}
             drag dragConstraints={constraintsRef}
             onClick={topFunction}
