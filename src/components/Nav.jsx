@@ -37,7 +37,7 @@ const Nav = ({ nc, nci, urli, urlii }) => {
           <li className='block mx-4'>
             <Link
               href="/quizApp"
-              className="z-10 inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent"
+              className="z-10 inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent di"
             >
               <span className='z-10'>QuizApp</span>
               <svg
