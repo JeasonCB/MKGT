@@ -13,7 +13,7 @@ const clase1 = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Top />
-      <Nav nc="1" nci="2" urli="/clase1" urlii="/clase2" />
+      <Nav id='navbar' nc="1" nci="2" urli="/clase1" urlii="/clase2" />
       {/* presentacion - con blob ⬇ */}
       <div id='top' className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
         <div>
