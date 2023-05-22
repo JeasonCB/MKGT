@@ -13,8 +13,8 @@ export default function Home () {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className='pb-[10vh]'> </div>
-      <div className='text-center w-[100%] text-5xl font-bold mb-4'> Cursos 👇</div>
+      <div className='lg:pb-[10vh] p'> </div>
+      <div className='text-center w-[100%] text-5xl font-bold mb-5'> Cursos 👇</div>
       <Layout>
         <Card titulo='clase 1' link='./clase1' subtitulo='Principios de marketing' descripcion={'lorem ipsum'} url={marketing} />
         <Card titulo='clase 2' link='./clase2' subtitulo='Factores de microentorno' descripcion={''} url={marketing} />
