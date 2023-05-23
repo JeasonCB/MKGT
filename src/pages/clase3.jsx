@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
 import TopB from '../components/TopB'
+import Footer from '../components/Footer'
 const clase3 = () => {
   return (
     <>
@@ -49,7 +50,7 @@ const clase3 = () => {
         </div>
         {/* primera seccion - original ⬇ */}
         <section>
-          <div className="px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
+          <div className="px-4 lg:pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
             <div className="flex flex-wrap items-center mx-auto max-w-7xl">
               <div className="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
                 <div>
@@ -107,7 +108,7 @@ const clase3 = () => {
 
                   <li>
                     <b>D</b>emográfico: La demografía es el estudio de las poblaciones humanas en términos de su tamaño, densidad, ubicación, edad, género, raza, ocupación, entre otras.
-                    <br /> Representados por el acrónimo <b>&quot;(T.E.N.P.C.D)&quot;</b>
+                    <br /> Representados por el acrónimo <b>&quot;(T.E.N.P.C.D)&quot;</b> o <b>&quot;(P.E.S.T.E.L)&quot;</b>
                   </li>
                 </div>
 
@@ -116,11 +117,10 @@ const clase3 = () => {
               </div>
 
             </div>
-            <br />
-            <hr />
 
           </div>
         </section>
+        <Footer />
       </div>
     </>
   )

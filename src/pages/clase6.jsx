@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
 import TopB from '../components/TopB'
+import Footer from '../components/Footer'
 const clase6 = () => {
   return (
     <>
@@ -58,27 +59,27 @@ const clase6 = () => {
                       <div className="relative">
                       </div>
                     </div>
-                    <Image className="object-cover object-center mx-auto rounded-lg shadow-lg bg-white blur-none lg:block lg:my-40 " alt="Maslow" src={Lovemarks} />
+                    <Image className="hidden object-cover object-center mx-auto rounded-lg shadow-lg bg-white blur-none lg:block lg:my-40 " alt="Maslow" src={Lovemarks} />
                   </div>
                 </div>
                 <div className="flex flex-col items-start mt-12 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
                   <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Definición </span>
                   <h1 className="mb-8 bg-gradient-to-r from-pink-600/90 via-pink-700 to-pink-700 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">¿QUE ES UNA LOVEMARK?</h1>
-
+                  <Image className="md:hidden object-cover object-center mx-auto rounded-lg shadow-lg bg-white blur-none lg:my-40 " alt="Maslow" src={Lovemarks} />
                   <p className="mb-8 text-base leading-relaxed text-left text-gray-500 font-bold">“Es una marca que ha logrado posicionarse como la primera opcion de su publico objetivo, gracias a la generacion de vinculos emocionales que hacen que la fidelidad y el compromiso de sus consumidores llegue al punto en que estos sienten amor por la marca” <span className='text-black'>RockContent (2019). </span></p>
                   <h2 className='font-bold text-lg text-pink-600'>El amor se compone de 3 atributos: </h2>
                   <div className="mb-8 text-base leading-relaxed text-left text-gray-700">
 
                     <li>
-                      <b>M</b>isterio: crea grandes historias, despierta los sueños e inspira y apela a mitos e iconos.
+                      <b>Misterio:</b> crea grandes historias, despierta los sueños e inspira y apela a mitos e iconos.
                     </li>
                     <br />
                     <li>
-                      <b>S</b>ensualidad: Los protagonistas son los 5 sentidos: sonido, vista, olor, tacto y gusto.
+                      <b>Sensualidad:</b> Los protagonistas son los 5 sentidos: sonido, vista, olor, tacto y gusto.
                     </li>
                     <br />
                     <li>
-                      <b>I</b>ntimidad: Se trata de compromiso, se debe probar que se esta en una relacion a largo plazo;
+                      <b>Intimidad:</b> Se trata de compromiso, se debe probar que se esta en una relacion a largo plazo;
                       Se debe tener empatia, es decir comprender y responder las emociones de los demás, así como tambien pasión.
                       En conclusion intimidad se trata de: <br />
                       Tomar acciones, invitar a participar y compartir.
@@ -89,15 +90,15 @@ const clase6 = () => {
                   <div className="mb-8 text-base leading-relaxed text-left text-gray-700">
 
                     <li>
-                      <b>D</b>esempeño: Innovación, Calidad, Servicio, Identidad, Valor.
+                      <b>Desempeño:</b> Innovación, Calidad, Servicio, Identidad, Valor.
                     </li>
                     <br />
                     <li>
-                      <b>C</b>onfianza: Confiabilidad, Sostenibilidad, Facilitar, Franqueza, Seguridad.
+                      <b>Confianza:</b> Confiabilidad, Sostenibilidad, Facilitar, Franqueza, Seguridad.
                     </li>
                     <br />
                     <li>
-                      <b>R</b>eputación: Liderazgo, Honestidad, Responsabilidad, Eficacia.
+                      <b>Reputación:</b> Liderazgo, Honestidad, Responsabilidad, Eficacia.
                     </li>
                     <br />
                   </div>
@@ -114,7 +115,7 @@ const clase6 = () => {
               <Image className="object-cover object-center mx-auto rounded-lg shadow-lg bg-white blur-none h-[50vh] w-[40vw]" alt="Maslow" src={bl} />
             </div> */}
           </section>
-
+          <Footer />
         </div>
       </>
     </>

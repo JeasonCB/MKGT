@@ -14,7 +14,7 @@ const clase1 = () => {
         <meta name="description" content="Created by Jecb" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-              <TopB/>
+      <TopB />
       <Nav id='navbar' nc="1" nci="2" urli="/clase1" urlii="/clase2" />
       {/* presentacion - con blob ⬇ */}
       <div id='top' className='bg-gradient-to-tr from-white  via-slate-100/10 to-indigo-200 h-[50vh] sm:h-[70vh] w-full'>
@@ -82,12 +82,11 @@ const clase1 = () => {
                 </div>
               </div>
             </div>
-            <br />
             <hr />
           </div>
         </section>
         {/* segunda seccion - inversa ⬇ */}
-        <section className='px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
+        <section className='px-4 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
           <div className='flex flex-wrap items-center mx-auto max-w-7xl'>
             <div className='flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0'>
               <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Definición </span>
@@ -112,7 +111,7 @@ const clase1 = () => {
             <div className='w-full lg:max-w-lg lg:w-1/2 rounded-xl'>
               <Image alt='city' className='' src={city} />
               <br />
-              <hr />
+
             </div>
             <br />
           </div>

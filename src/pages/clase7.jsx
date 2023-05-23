@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
 import TopB from '../components/TopB'
+import Footer from '../components/Footer'
 const clase7 = () => {
   return (
     <>
@@ -76,13 +77,13 @@ const clase7 = () => {
                   <br />
 
                   <li>
-                    <b>T</b>angibles: Empaque, sabor, modelo, color, tamaño, entre otras características.
+                    <b>Tangibles:</b> Empaque, sabor, modelo, color, tamaño, entre otras características.
                   </li>
 
                   <br />
 
                   <li>
-                    <b>I</b>ntangibles: Servicio, imagen del minorista, reputación del fabricante, estatus social ligado al producto.
+                    <b>Intangibles:</b> Servicio, imagen del minorista, reputación del fabricante, estatus social ligado al producto.
                   </li>
 
                 </div>
@@ -122,11 +123,13 @@ const clase7 = () => {
 
           </div>
         </section>
-        <section className='px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
+        {/* segunda seccion */}
+        <section className='px-4 lg:pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
           <div className='flex flex-wrap items-center mx-auto max-w-7xl'>
             <div className='flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0'>
               <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Tipología </span>
               <h1 className="mb-8 bg-gradient-to-r from-pink-600/90 via-pink-700 to-pink-700 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">Tipos de producto:</h1>
+              <Image className='md:hidden' src={city} />
               <p className="mb-8 text-base leading-relaxed text-left text-gray-500 font-bold">“Existen 4 tipos de producto de consumo que son: de conveniencia, de comparacion, de especialidad y producto no buscado”</p>
               <div className="mb-8 text-base leading-tight text-left text-gray-700">
                 <h2 className="font-bold text-lg text-pink-600">Estos 4 se definen como: </h2>
@@ -143,7 +146,7 @@ const clase7 = () => {
             </div>
             <div className="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex"></div>
             <div className='w-full lg:max-w-lg lg:w-1/2 rounded-xl'>
-              <Image className='' src={city} />
+              <Image className='hidden lg:block' src={city} />
               <br />
             </div>
             <br />
@@ -152,7 +155,7 @@ const clase7 = () => {
         </section>
         {/* tercera parte */}
         <section>
-          <div className="px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
+          <div className="px-4 lg:pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
             <div className="flex flex-wrap items-center mx-auto max-w-7xl">
               <div className="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
                 <div>
@@ -178,34 +181,34 @@ const clase7 = () => {
                   <br />
 
                   <li>
-                    <b>C</b>alidad: La calidad tiene dos dimensiones: nivel y consistencia. En el desarrollo de un producto, primero se debe elegir un nivel de calidad que apoye el posicionamiento del producto o servicio. Aquí, la calidad del producto significa la capacidad del producto para realizar sus funciones. Mientras mas alta es la calidad mayor consistencia conlleva.
+                    <b>Calidad:</b> La calidad tiene dos dimensiones: nivel y consistencia. En el desarrollo de un producto, primero se debe elegir un nivel de calidad que apoye el posicionamiento del producto o servicio. Aquí, la calidad del producto significa la capacidad del producto para realizar sus funciones. Mientras mas alta es la calidad mayor consistencia conlleva.
                   </li>
 
                   <li>
-                    <b>C</b>aracteristicas: las características son una herramienta competitiva para diferenciar el producto de la compañía de los productos de los competidores. Ser el primer fabricante en lanzar una nueva y valiosa característica es una de las formas más eficaces para competir.
+                    <b>Caracteristicas:</b> las características son una herramienta competitiva para diferenciar el producto de la compañía de los productos de los competidores. Ser el primer fabricante en lanzar una nueva y valiosa característica es una de las formas más eficaces para competir.
                   </li>
 
                   <li>
-                    <b>D</b>iseño y Estilo: Un buen diseño contribuye tanto a la utilidad del producto, como a su apariencia
+                    <b>Diseño y Estilo:</b> Un buen diseño contribuye tanto a la utilidad del producto, como a su apariencia
                   </li>
                 </div>
                 <h2 className='font-bold text-lg text-pink-600'>Cartera de producto: </h2>
-                <div className="mb-8 text-base leading-relaxed text-left text-gray-700">
+                <div className="mb-4 text-base leading-relaxed text-left text-gray-700">
                   <br />
                   <li>
-                    <b>A</b>mplitud: Se refiere al número total de productos que maneja la compañía. Se mide por el número de líneas de productos que comprende. por ejemplo coca cola produce refrescos, bebidas energéticas, agua embotellada, té y café entre otros productos
+                    <b>Amplitud:</b> Se refiere al número total de productos que maneja la compañía. Se mide por el número de líneas de productos que comprende. por ejemplo coca cola produce refrescos, bebidas energéticas, agua embotellada, té y café entre otros productos
                   </li>
                   <br />
                   <li>
-                    <b>L</b>ongitud: Es la cantidad total de productos ofrecidos en esa línea. Por ejemplo gatorade y todos sus sabores o todos sus refrescos.
+                    <b>Longitud:</b> Es la cantidad total de productos ofrecidos en esa línea. Por ejemplo gatorade y todos sus sabores o todos sus refrescos.
                   </li>
                   <br />
                   <li>
-                    <b>P</b>rofundidad: Las diferentes variantes de los productos en cada línea. Un factor que indica la variación podría ser el tamaño. Esta se aplica a cada producto.
+                    <b>Profundidad:</b> Las diferentes variantes de los productos en cada línea. Un factor que indica la variación podría ser el tamaño. Esta se aplica a cada producto.
                   </li>
                   <br />
                   <li>
-                    <b>C</b>onsistencia: Trata el grado de similitud y relación que tienen todas las líneas de productos entre ellas. Se analiza el uso que tienen, los canales de distribución o incluso los requisitos en la producción.
+                    <b>Consistencia:</b> Trata el grado de similitud y relación que tienen todas las líneas de productos entre ellas. Se analiza el uso que tienen, los canales de distribución o incluso los requisitos en la producción.
                   </li>
                 </div>
                 <div className="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex">
@@ -213,10 +216,10 @@ const clase7 = () => {
               </div>
 
             </div>
-            <br />
-            <hr />
+
           </div>
         </section>
+        <Footer />
       </div>
     </>
   )

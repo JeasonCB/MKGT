@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
 import TopB from '../components/TopB'
+import Footer from '../components/Footer'
 
 const clase5 = () => {
   return (
@@ -108,25 +109,26 @@ const clase5 = () => {
           </div>
           {/* segunda seccion - inversa ⬇ */}
         </section>
-        <section className='px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
+        <section className='px-4 lg:pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
           <div className='flex flex-wrap items-center mx-auto max-w-7xl'>
-            <div className='flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0'>
+            <div className='flex flex-col items-start mt-12 mb-8 text-left lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0'>
               <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Definición </span>
               <h1 className="mb-8 bg-gradient-to-r from-pink-600/90 via-pink-700 to-pink-700 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">BASES DEL POSICIONAMIENTO</h1>
+        <Image className='md:hidden' src={city} />
               <p className="mb-8 text-base leading-relaxed text-left text-gray-500 font-bold">“Conjunto de principios o normas iniciales a partir de los cuales se elabora, establece o crea una estrategia.” <span className="text-gray-700"></span> </p>
 
-              <div className="mb-8 text-base leading-tight text-left text-gray-700">
+              <div className="lg:mb-8 text-base leading-tight text-left text-gray-700">
                 <h2 className="font-bold text-lg text-pink-600">El posicionamiento se construye sobre 8 pilares fundamentales estos son: </h2>
                 <br />
                 <li className="m-0"><b>Atributo:</b> El producto va asociado a una característica, atributo o beneficio para el cliente. por ejemplo FedEx (entrega puntual garantizada), Nike (desempeño), Lexus (calidad) y Walmart (precios bajos).</li>
                 <br />
                 <li><b>Precio y calidad:</b> ¿Precio elevado = calidad? El producto realmente vale la pena por su precio, algunos ejemplos, Ropa, alimentos o vehiculos de gama baja vs gama alta.</li>
                 <br />
-                <li><b>Ocasión de uso o aplicación :</b>  Son productos o servicios enfocados en cubrir una nececidad momentanea, como gatorade, hoteleria, cines o restaurantes.</li>
+                <li><b>Ocasión de uso o aplicación:</b>  Son productos o servicios enfocados en cubrir una nececidad momentanea, como gatorade, hoteleria, cines o restaurantes.</li>
                 <br />
-                <li><b>Usuario del producto :</b> se enfoca en las necesidades de un perfil de usuario, considerando la personalidad o tipo de usuario. como axe, polar(deporte y vida activa).</li>
+                <li><b>Usuario del producto:</b> se enfoca en las necesidades de un perfil de usuario, considerando la personalidad o tipo de usuario. como axe, polar(deporte y vida activa).</li>
                 <br />
-                <li><b>Por iniciador de la categoría:</b>al crear un producto nuevo como intel, kleenex o apple.</li>
+                <li><b>Por iniciador de la categoría:</b> al crear un producto nuevo como intel, kleenex o apple.</li>
                 <br />
                 <li><b>En función de la competencia:</b> Ya sea como lider o seguidor, siendo el producto mejor posicionado o representando una alternativa economica respectivamente. Ejemplo cocacola, pepsi y glup. </li>
                 <br />
@@ -139,11 +141,12 @@ const clase5 = () => {
             </div>
             <div className="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex"></div>
             <div className='w-full lg:max-w-lg lg:w-1/2 rounded-xl'>
-              <Image className='' src={city} />
-              <hr />
+              <Image className='hidden lg:block' src={city} />
+
             </div>
           </div>
         </section>
+        <Footer />
       </div>
     </>
   )

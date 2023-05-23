@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
 import TopB from '../components/TopB'
+import Footer from '../components/Footer'
 const clase4 = () => {
   return (
     <>
@@ -122,7 +123,7 @@ const clase4 = () => {
           </div>
           {/* segunda seccion - inversa ⬇ */}
         </section>
-        <section className='px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
+        <section className='px-4 lg:pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
           <div className='flex flex-wrap items-center mx-auto max-w-7xl'>
             <div className='flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0'>
               <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Definición </span>
@@ -169,7 +170,6 @@ const clase4 = () => {
                 <li className="text-gray-700 text-base leading-tight mb-10"><b>8.- Revisión del desempeño del proveedor:</b> Es la etapa final en el proceso de compra empresarial. El comprador evalúa el desempeño del proveedor y le proporciona retroalimentación.
                 </li>
                 <br />
-                <hr />
               </div>
             </div>
             <div className="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex"></div>
@@ -177,9 +177,10 @@ const clase4 = () => {
               <Image className="object-cover object-center mx-auto rounded-lg shadow-lg bg-white blur-none hidden md:hidden lg:block lg:my-40 " alt="Maslow" src={city} />
             </div>
           </div>
+          <hr />
           {/* tercera seccion */}
           <section>
-            <div className="px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
+            <div className="px-4 lg:pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
               <div className="flex flex-wrap items-center mx-auto max-w-7xl">
                 <div className="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
                   <div>
@@ -273,6 +274,7 @@ const clase4 = () => {
             </div>
           </div>
         </section>
+        <Footer />
       </div>
     </>
   )

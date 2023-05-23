@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
 import TopB from '../components/TopB'
+import Footer from '../components/Footer'
 const clase8 = () => {
   return (
     <>
@@ -74,28 +75,28 @@ const clase8 = () => {
                   <br />
 
                   <li>
-                    <b>P</b>rimario: Material o envoltorio que está en contacto directo con el producto real.
+                    <b>Primario:</b> Material o envoltorio que está en contacto directo con el producto real.
                   </li>
 
                   <li>
-                    <b>S</b>ecundario: Caja o envoltorio que contiene al empaque primario y se utiliza como presentación principal del producto.
+                    <b>Secundario:</b> Caja o envoltorio que contiene al empaque primario y se utiliza como presentación principal del producto.
                   </li>
 
                   <li>
-                    <b>T</b>ransporte o terciario: Caja o se transporta al detallista o se almacena.
+                    <b>Transporte o terciario:</b> Caja o se transporta al detallista o se almacena.
                   </li>
 
                   <br />
 
                   <h2 className='font-bold text-lg text-pink-600'>Los 3 tipos de etiquetas son: </h2>
                   <li>
-                    <b>I</b>dentificativa: La finalidad es, como su nombre indica, favorecer el recordatorio de la marca del producto y conseguir una mayor fidelización de marca.
+                    <b>Identificativa:</b> La finalidad es, como su nombre indica, favorecer el recordatorio de la marca del producto y conseguir una mayor fidelización de marca.
                   </li>
                   <li>
-                    <b>D</b>escriptiva o informativa: distintiva e informativa. Permite que el cliente pueda identificar fácilmente el producto y sus características.
+                    <b>Descriptiva o informativa:</b> distintiva e informativa. Permite que el cliente pueda identificar fácilmente el producto y sus características.
                   </li>
                   <li>
-                    <b>P</b>romocional: Destaca alguna propiedad o característica del producto para generar confianza al posible comprador y atraerlo. Frases tipo: Sin aceite de palma o contiene vitaminas y minerales.
+                    <b>Promocional:</b> Destaca alguna propiedad o característica del producto para generar confianza al posible comprador y atraerlo. Frases tipo: Sin aceite de palma o contiene vitaminas y minerales.
                   </li>
                   <br />
                 </div>
@@ -109,13 +110,14 @@ const clase8 = () => {
             <hr />
 
           </div>
-        </section>+
+        </section>
         {/* Seccion 2 */}
-        <section className='px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
+        <section className='px-4 lg:pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
           <div className='flex flex-wrap items-center mx-auto max-w-7xl'>
             <div className='flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0'>
               <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Definición </span>
               <h1 className="mb-8 bg-gradient-to-r from-pink-600/90 via-pink-700 to-pink-700 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">¿Que es ciclo de vida del producto?</h1>
+              <Image className='md:hidden' src={city} />
               <p className="mb-8 text-base leading-relaxed text-left text-gray-500 font-bold">Es la evolución de las ventas y ganancias de un producto o servicio a lo largo de su existencia </p>
               <div className="mb-8 text-base leading-tight text-left text-gray-700">
                 <h2 className="font-bold text-lg text-pink-600">Pasando así por 4 grandes etapas las cuales son: </h2>
@@ -132,16 +134,16 @@ const clase8 = () => {
             </div>
             <div className="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex"></div>
             <div className='w-full lg:max-w-lg lg:w-1/2 rounded-xl'>
-              <Image className='' src={city} />
+              <Image className='hidden lg:block' src={city} />
               <br />
               <hr />
             </div>
-            <br />
+            <hr />
           </div>
         </section>
         {/* Seccion 3 */}
         <section>
-          <div className="px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
+          <div className="px-4 lg:pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
             <div className="flex flex-wrap items-center mx-auto max-w-7xl">
               <div className="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
                 <div>
@@ -156,7 +158,7 @@ const clase8 = () => {
                   {/* abajo de la */}
                 </div>
               </div>
-              <div className="flex flex-col items-start mt-16 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
+              <div className="flex flex-col items-start mt-8 lg:mt-16 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
                 <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Definición </span>
                 <h1 className="mb-8 bg-gradient-to-r from-pink-600/90 via-pink-700 to-pink-700 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">¿QUE ES MARCA?</h1>
                 <Image className="object-cover object-center mx-auto rounded-lg shadow-lg bg-white blur-none hidden md:block lg:my-40 lg:hidden " alt="Maslow" src={city} />
@@ -196,8 +198,9 @@ const clase8 = () => {
 
           </div>
         </section>
+        {/* Seccion 4 */}
         <section>
-          <div className="px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
+          <div className="px-4 lg:pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
             <div className="flex flex-wrap items-center mx-auto max-w-7xl">
               <div className="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
                 <div>
@@ -223,23 +226,23 @@ const clase8 = () => {
                   <br />
 
                   <li>
-                    <b>I</b>ntangibilidad: Los servicios no pueden ser vistos, probados, sentidos, escuchados u olfateados antes de ser comprados.
+                    <b>Intangibilidad:</b> Los servicios no pueden ser vistos, probados, sentidos, escuchados u olfateados antes de ser comprados.
                   </li>
 
                   <br />
 
-                  <li> <b>I</b>nconsistencia: La calidad de los servicios podría variar en gran medida dependiendo de quién los provea y cuándo, dónde y cómo son provistos.
+                  <li> <b>Inconsistencia:</b> La calidad de los servicios podría variar en gran medida dependiendo de quién los provea y cuándo, dónde y cómo son provistos.
                   </li>
 
                   <br />
 
-                  <li> <b>I</b>nseparabilidad: Los servicios se producen y consumen al mismo tiempo y no pueden ser separados de sus proveedores.
+                  <li> <b>Inseparabilidad:</b> Los servicios se producen y consumen al mismo tiempo y no pueden ser separados de sus proveedores.
                   </li>
 
                   <br />
 
                   <li>
-                    <b>I</b>nventario: Los servicios no pueden ser almacenados para
+                    <b>Inventario:</b> Los servicios no pueden ser almacenados para
                     su uso o venta posterior.
                   </li>
 
@@ -253,10 +256,10 @@ const clase8 = () => {
 
             </div>
             <br />
-            <hr />
 
           </div>
         </section>
+        <Footer />
       </div>
     </>
   )

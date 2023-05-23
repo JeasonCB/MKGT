@@ -20,7 +20,7 @@ const Top = () => {
           <motion.div
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
-            transition={{ duration: 1 }}
+            transition={{ duration: 1.2 }}
             drag dragConstraints={constraintsRef}
             onDoubleClick={topFunction}
             className='ml-1 grid place-items-center rounded-full bg-pink-500/80 h-[32px] w-[32px] sticky pointer-events-auto'

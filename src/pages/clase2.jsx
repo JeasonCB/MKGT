@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
 import TopB from '../components/TopB'
+import Footer from '../components/Footer'
 const clase2 = () => {
   return (
     <>
@@ -73,7 +74,7 @@ const clase2 = () => {
                   <Image className="object-cover object-center mx-auto rounded-lg shadow-lg bg-white blur-none md:hidden" alt="Maslow" src={city} />
                   <p className="mb-8 text-base leading-relaxed text-left text-gray-500 font-bold">“Está formado por los actores cercanos a la empresa que afectan (positiva o negativamente) su capacidad para servir a los clientes: departamentos de la empresa, proveedores, intermediarios de marketing, clientes, competidores y públicos.” </p>
                   <h2 className='font-bold text-lg text-pink-600'>Son 6 los actores que forman el microentorno y ellos son: </h2>
-                  <div className="mb-8 text-base leading-relaxed text-left text-gray-700">
+                  <div className="lg:mb-8 text-base leading-relaxed text-left text-gray-700">
 
                     <li>
                       <b>P</b>roveedores: Brindan los recursos que la empresa
@@ -108,11 +109,11 @@ const clase2 = () => {
 
               </div>
               <br />
-              <hr />
 
             </div>
             {/* segunda seccion - inversa ⬇ */}
           </section>
+          <Footer />
         </div>
 
       </>

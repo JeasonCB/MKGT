@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
 import TopB from '../components/TopB'
+import Footer from '../components/Footer'
 
 const clase10 = () => {
   return (
@@ -138,11 +139,13 @@ const clase10 = () => {
 
           </div>
         </section>
-        <section className='px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
+        {/* segunda seccion */}
+        <section className='px-4 lg:pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14'>
           <div className='flex flex-wrap items-center mx-auto max-w-7xl'>
             <div className='flex flex-col items-start mt-12 mb-16 text-left lg:flex-grow lg:w-1/2 lg:pr-6 xl:pr-24 md:mb-0 xl:mt-0'>
               <span className="mb-8 text-xs font-bold tracking-widest text-blue-600 uppercase"> Definición </span>
               <h1 className="mb-8 bg-gradient-to-r from-pink-600/90 via-pink-700 to-pink-700 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl">Estrategias de mezcla de promoción</h1>
+              <Image className='md:hidden' src={city} />
               <p className="mb-8 text-base leading-relaxed text-left text-gray-500 font-bold">Comprende 2 grandes estrategias push y pull. <br />
                 <b className='text-black'>Push: </b> Es la estrategia de promoción en la cual se utiliza la fuerza de ventas y las promociones comerciales para empujar al producto a través de canales. El fabricante promueve su producto con los miembros del canal quienes a su vez lo promuevan a los consumidores finales. <br />
                 <b className='text-black'>Pull: </b> Es la estrategia de promoción en la cual una empresa invierte mucho dinero en promoción y publicidad al consumidor para inducir a los consumidores finales a comprar el producto, creando así una atracción en la demanda que hala al producto a través del canal.</p>
@@ -192,13 +195,14 @@ const clase10 = () => {
             </div>
             <div className="flex-col mt-0 lg:mt-6 max-w-7xl sm:flex"></div>
             <div className='w-full lg:max-w-lg lg:w-1/2 rounded-xl'>
-              <Image className='' src={city} />
+              <Image className='hidden lg:block' src={city} />
               <br />
-              <hr />
+
             </div>
             <br />
           </div>
         </section>
+        <Footer />
       </div>
     </>
   )

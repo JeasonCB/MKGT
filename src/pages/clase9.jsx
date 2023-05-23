@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Nav from '../components/Nav'
 import Head from 'next/head'
 import TopB from '../components/TopB'
+import Footer from '../components/Footer'
 const clase9 = () => {
   return (
     <>
@@ -123,7 +124,7 @@ const clase9 = () => {
         </section>
         {/* Segunda seccion */}
         <section>
-          <div className="px-4 pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
+          <div className="px-4 lg:pt-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-14">
             <div className="flex flex-wrap items-center mx-auto max-w-7xl">
               <div className="w-full lg:max-w-lg lg:w-1/2 rounded-xl">
                 <div>
@@ -198,11 +199,10 @@ const clase9 = () => {
 
             </div>
             <br />
-            <hr />
 
           </div>
         </section>
-        <div>Tus medidas son:  </div>
+        <Footer />
 
       </div>
     </>
