@@ -9,9 +9,9 @@ const Nav = ({ nc, nci, urli, urlii }) => {
       >
         <Link
           href="/"
-          className=" inline-flex h-10 w-18 items-center justify-center rounded-lg "
+          className=" inline-flex h-10 w-18 items-center justify-center rounded-lg  "
         >
-          <span className="-z-50 sr-only w-20">Logo</span>
+          <span className=" sr-only w-20">Logo</span>
           👋 Home
         </Link>
 
@@ -34,7 +34,7 @@ const Nav = ({ nc, nci, urli, urlii }) => {
             </Link>
           </li>
 
-          <li className='block mx-4'>
+          <li className='block mx-1'>
             <Link
               href="/"
               className=" inline-flex h-10 w-18 items-center justify-center rounded-lg bg-transparent"

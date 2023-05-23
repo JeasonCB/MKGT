@@ -14,7 +14,7 @@ const Top = () => {
     <>
       <div className='w-full grid place-items-center'>
         <motion.div
-          className='h-[calc(100vh-0.50rem)] w-[99%] flex items-center m-2 mb-2 cursor-pointer'
+          className='h-[calc(100vh-1rem)] w-[99%] flex items-center m-2 mb-2 cursor-pointer'
           ref={constraintsRef}
         >
           <motion.div
@@ -22,7 +22,7 @@ const Top = () => {
             animate={{ scale: 1 }}
             transition={{ duration: 1 }}
             drag dragConstraints={constraintsRef}
-            onClick={topFunction}
+            onDoubleClick={topFunction}
             className='ml-1 grid place-items-center rounded-full bg-pink-500/80 h-[32px] w-[32px] sticky pointer-events-auto'
           >
             <div
