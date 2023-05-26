@@ -10,7 +10,7 @@ const clase8 = () => {
     <>
       <Head>
         <title>Marketing Mix: Producto 2</title>
-        <meta name="description" content="Created by Jecb" />
+        <meta name="description" content="Created by Jeason Campos" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <TopB />

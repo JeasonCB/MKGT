@@ -11,7 +11,7 @@ const clase1 = () => {
     <>
       <Head>
         <title>Principios de Marketing</title>
-        <meta name="description" content="Created by Jecb" />
+        <meta name="description" content="Created by Jeason Campos" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <TopB />
