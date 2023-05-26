@@ -3,7 +3,7 @@ const Footer = () => {
     <>
       <footer className="bg-transparent text-center lg:text-left">
         <div className="text-center ">
-          © 2023 Creado con <a href="https://nextjs.org/showcase#:~:text=TikTok"> NextJS</a><a className='mx-2 inline-flex text-neutral-800 dark:text-neutral-400' href="https://www.instagram.com/camposjeason"> <span className='mr-2'>por JECB</span> <svg
+          © 2023 Creado con <a href="https://nextjs.org/showcase#:~:text=TikTok"> NextJS</a><a className='mx-2 inline-flex text-neutral-800 dark:text-neutral-400' href="https://www.instagram.com/camposjeason"> <span className='mr-2'>por JEASON CAMPOS</span> <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-5 w-5"
             fill="currentColor"
